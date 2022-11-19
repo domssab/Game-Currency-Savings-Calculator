@@ -42,14 +42,15 @@ while game_option in (0,1,2,3):
             total_black_cards = int(black_cards + daily + weekly)
             event_rd = int(total_black_cards / 250)
             print("\n############ TOTAL ############")
-            print("Total Black Cards:", total_black_cards)
+            print("\nTotal Black Cards:", total_black_cards)
             print("Total Event R&D Tickets:", event_rd)
             print("\n###############################")
-            print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-                  "\nMAY ASIMOV'S BLESSINGS BE ON YOU"
-                  "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+            print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+                  "\n MAY ASIMOV'S BLESSINGS BE ON YOU"
+                  "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
       # Option 3: Cancel
       if game_option == 3:
-            print("Thank you for trying!")
+            print("Wishing you all luck on your pulls!"
+                  "\nThank you for trying!")
             break
 
