@@ -45,7 +45,9 @@ while game_option in (0,1,2,3):
             print("Total Black Cards:", total_black_cards)
             print("Total Event R&D Tickets:", event_rd)
             print("\n###############################")
-            print("\nMAY ASIMOV'S BLESSINGS BE ON YOU")
+            print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+                  "\nMAY ASIMOV'S BLESSINGS BE ON YOU"
+                  "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
       # Option 3: Cancel
       if game_option == 3:
             print("Thank you for trying!")
